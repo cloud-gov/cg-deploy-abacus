@@ -12,8 +12,8 @@ applications:
     EUREKA: abacus-eureka-plugin
     API: api
     DBCLIENT: abacus-mongoclient
-    CF_CLIENT_ID: abacus-cf-bridge
-    CF_CLIENT_SECRET: secret
+    CF_CLIENT_ID: $BRIDGE_CLIENT_ID
+    CF_CLIENT_SECRET: $BRIDGE_CLIENT_SECRET
     NODE_MODULES_CACHE: false
     SECURED: false
     AUTH_SERVER: api

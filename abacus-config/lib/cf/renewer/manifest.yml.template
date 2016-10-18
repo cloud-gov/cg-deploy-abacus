@@ -17,8 +17,8 @@ applications:
     NODE_MODULES_CACHE: false
     SECURED: false
     AUTH_SERVER: api
-    ABACUS_CLIENT_ID: abacus
-    ABACUS_CLIENT_SECRET: secret
+    ABACUS_CLIENT_ID: $ABACUS_CLIENT_ID
+    ABACUS_CLIENT_SECRET: $ABACUS_CLIENT_SECRET
     JWTKEY: |+
       -----BEGIN PUBLIC KEY-----
       ... <UAA public key in PEM format> ...
