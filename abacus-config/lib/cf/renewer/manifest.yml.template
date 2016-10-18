@@ -13,8 +13,7 @@ applications:
     PROVISIONING: abacus-provisioning-plugin
     EUREKA: abacus-eureka-plugin
     API: api
-    DB: abacus-pouchserver
-    DBCLIENT: abacus-couchclient
+    DBCLIENT: abacus-mongoclient
     NODE_MODULES_CACHE: false
     SECURED: false
     AUTH_SERVER: api

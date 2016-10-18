@@ -10,7 +10,7 @@ applications:
     DEBUG: e-abacus-*
     PROVISIONING: abacus-provisioning-plugin
     ACCOUNT: abacus-account-plugin
-    DB: abacus-pouchserver
+    DBCLIENT: abacus-mongoclient
     EUREKA: abacus-eureka-plugin
     NODE_MODULES_CACHE: false
     SECURED: false

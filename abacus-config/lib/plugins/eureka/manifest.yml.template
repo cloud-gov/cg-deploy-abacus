@@ -8,7 +8,7 @@ applications:
   env:
     CONF: default
     DEBUG: e-abacus-*
-    DB: abacus-pouchserver
+    DBCLIENT: abacus-mongoclient
     NODE_MODULES_CACHE: false
     SECURED: false
     # JWTKEY:

@@ -7,7 +7,7 @@ applications:
   disk_quota: 512M
   env:
     CONF: default
-    DB: abacus-pouchserver
+    DBCLIENT: abacus-mongoclient
     DEBUG: e-abacus-*
     EUREKA: abacus-eureka-plugin
     NODE_MODULES_CACHE: false
