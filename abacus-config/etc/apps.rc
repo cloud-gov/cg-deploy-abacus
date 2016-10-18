@@ -1,0 +1,33 @@
+default:
+  apps:
+    - lib/utils/pouchserver
+    - lib/plugins/eureka
+    - lib/plugins/authserver
+    - lib/plugins/provisioning
+    - lib/plugins/account
+    - lib/metering/collector
+    - lib/metering/meter
+    - lib/aggregation/accumulator
+    - lib/aggregation/aggregator
+    - lib/aggregation/reporting
+
+small:
+
+medium:
+
+large:
+
+bridge:
+  apps:
+    - lib/utils/pouchserver
+    - lib/plugins/eureka
+    - lib/plugins/authserver
+    - lib/plugins/provisioning
+    - lib/plugins/account
+    - lib/metering/collector
+    - lib/metering/meter
+    - lib/aggregation/accumulator
+    - lib/aggregation/aggregator
+    - lib/aggregation/reporting
+    - lib/cf/bridge
+    - lib/cf/renewer
