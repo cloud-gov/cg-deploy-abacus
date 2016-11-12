@@ -10,6 +10,7 @@ applications:
     DEBUG: e-abacus-*
     DBCLIENT: abacus-mongoclient
     NODE_MODULES_CACHE: false
-    SECURED: false
-    # JWTKEY:
-    # JWTALGO:
+    SECURED: true
+    JWTALGO: $JWTALGO
+    JWTKEY: |+
+      $JWTKEY

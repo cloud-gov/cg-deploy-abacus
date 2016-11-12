@@ -15,12 +15,10 @@ applications:
     API: api
     DBCLIENT: abacus-mongoclient
     NODE_MODULES_CACHE: false
-    SECURED: false
+    SECURED: true
     AUTH_SERVER: api
-    ABACUS_CLIENT_ID: $ABACUS_CLIENT_ID
-    ABACUS_CLIENT_SECRET: $ABACUS_CLIENT_SECRET
+    ABACUS_CLIENT_ID: $SYSTEM_CLIENT_ID
+    ABACUS_CLIENT_SECRET: $SYSTEM_CLIENT_SECRET
+    JWTALGO: $JWTALGO
     JWTKEY: |+
-      -----BEGIN PUBLIC KEY-----
-      ... <UAA public key in PEM format> ...
-      -----END PUBLIC KEY-----
-    JWTALGO: RS256
+      $JWTKEY
