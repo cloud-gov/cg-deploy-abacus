@@ -11,6 +11,7 @@ applications:
     DBCLIENT: abacus-mongoclient
     EUREKA: abacus-eureka-plugin
     NODE_MODULES_CACHE: false
-    SECURED: false
-    # JWTKEY:
-    # JWTALGO:
+    SECURED: true
+    JWTALGO: $JWTALGO
+    JWTKEY: |+
+      $JWTKEY

@@ -14,9 +14,10 @@ applications:
     DBCLIENT: abacus-mongoclient
     EUREKA: abacus-eureka-plugin
     NODE_MODULES_CACHE: false
-    SECURED: false
-    # AUTH_SERVER:
-    # CLIENT_ID:
-    # CLIENT_SECRET:
-    # JWTKEY:
-    # JWTALGO:
+    SECURED: true
+    AUTH_SERVER: $AUTH_SERVER
+    CLIENT_ID: $SYSTEM_CLIENT_ID
+    CLIENT_SECRET: $SYSTEM_CLIENT_SECRET
+    JWTALGO: $JWTALGO
+    JWTKEY: |+
+      $JWTKEY
