@@ -22,4 +22,5 @@ applications:
     JWTALGO: $JWTALGO
     JWTKEY: |+
       $JWTKEY
+    SLACK: $SLACK
     THROTTLE: 2

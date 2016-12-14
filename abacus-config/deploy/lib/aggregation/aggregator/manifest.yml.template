@@ -20,3 +20,4 @@ applications:
     JWTALGO: $JWTALGO
     JWTKEY: |+
       $JWTKEY
+    SLACK: $SLACK
